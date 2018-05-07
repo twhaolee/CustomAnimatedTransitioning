@@ -1,0 +1,93 @@
+.DS_Store
+.dropbox
+
+# reports
+output/
+reports/
+report.*
+test_output/
+cobertura.xml
+
+# Sparkle
+
+dsa_priv.pem
+
+
+# Python
+
+*.pyc
+
+
+# RVM
+
+rvm.env
+
+
+# Xcode Config
+
+*.mode1
+*.mode1v3
+*.mode2v3
+*.perspective
+*.perspectivev3
+*.pbxuser
+xcuserdata
+*.xcuserdatad
+*.xcuserstate
+project.xcworkspace
+!default.xcworkspace
+.LSOverride
+
+
+# Certificates
+
+*.cer
+
+
+# Builds
+
+build/
+Build/
+*.[o]
+
+
+# Other SCMs
+
+.hg
+.svn
+CVS
+
+
+# Backups
+
+*~.nib
+*.swp
+*~
+*(Autosaved).rtfd/
+
+Backup[ ]of[ ]*.pages/
+Backup[ ]of[ ]*.key/
+Backup[ ]of[ ]*.numbers/
+
+*.timemachine.supported
+
+Archives/*droplet.app
+Archives/*.ipa
+
+build/*
+Releases/build-*
+DerivedData/*
+derivedData/*
+
+# Automation
+wammer_ios_auto_build
+wammer_ios_auto_build_master
+testFlightCredentials
+
+# localize.py
+*.strings.new
+*.strings.old
+
+# CocoaPods
+Pods
+Pods/*
