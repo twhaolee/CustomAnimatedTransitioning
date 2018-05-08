@@ -22,10 +22,9 @@ class SwipeDismissAnimation: NSObject, UIViewControllerAnimatedTransitioning {
         }
         let fromView = fromViewController.view!
 
-        guard let toViewController = transitionContext.viewController(forKey: .to) else {
+        guard let toView = transitionContext.view(forKey: .to) else {
             return
         }
-        let toView = toViewController.view!
 
         let screenBounds = UIScreen.main.bounds
         let initFrame = transitionContext.initialFrame(for: fromViewController)
