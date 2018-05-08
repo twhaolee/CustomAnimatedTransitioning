@@ -24,11 +24,11 @@ class SwapAnimation: NSObject, UIViewControllerAnimatedTransitioning {
 
     // 過場動畫
     func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
-        guard let fromView = transitionContext.viewController(forKey: .from)?.view else {
+        guard let fromView = transitionContext.view(forKey: .from) else {
             return
         }
 
-        guard let toView = transitionContext.viewController(forKey: .to)?.view else {
+        guard let toView = transitionContext.view(forKey: .to) else {
             return
         }
 
